@@ -76,15 +76,13 @@ A local audit identified missing main headings (H1) and missing meta description
 
 ## Technical Documentation
 
-**[Product research & design](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/PRODUCT-CASE-STUDY.md)** — Market problem, user needs and product decisions.
-
-**[Software architecture](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ARCHITECTURE.md)** — Technology choices, APIs, data relationships, crawling and security.
-
-**[AI intelligence](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/AI-INTELLIGENCE.md)** — Language models, context retrieval and evidence-based responses.
-
-**[Engineering case studies](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md)** — Technical investigations, debugging and verification.
-
-**[Validation & reliability](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md)** — Test methods and recorded engineering results.
+| Documentation | Scope |
+|---|---|
+| **[Product research & design](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/PRODUCT-CASE-STUDY.md)** | Market problem, user needs and product decisions. |
+| **[Software architecture](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ARCHITECTURE.md)** | Technology choices, APIs, data relationships, crawling and security. |
+| **[AI intelligence](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/AI-INTELLIGENCE.md)** | Language models, context retrieval and evidence-based responses. |
+| **[Engineering case studies](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md)** | Technical investigations, debugging and verification. |
+| **[Validation & reliability](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md)** | Test methods and recorded engineering results. |
 
 ---
 
