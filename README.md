@@ -1,64 +1,100 @@
 # Aravind Mugappagari
 
-**Product Development · Software Architecture · Applied AI**
+**Product Development | Software Systems | Artificial Intelligence**
 
-My work combines product research, software design and AI-assisted development. I focus on understanding user problems, designing how software should solve them, and investigating how the system behaves when things go wrong.
+I work across product research, system design and AI-assisted software development. My approach is to study how people use existing products, identify problems that remain unresolved, and translate those findings into software requirements, technical decisions and testable solutions.
 
-## COPLIT
+[LinkedIn](https://www.linkedin.com/in/aravindmugappagari) · [GitHub repositories](https://github.com/aravind9154?tab=repositories)
 
-### Understand your website. Know what to fix.
+---
 
-COPLIT is an AI-powered SEO platform designed to help website owners understand technical problems, decide what to address first and check whether their changes worked.
+<div align="center">
 
-SEO tools provide detailed website audits. COPLIT focuses on what happens next: turning technical findings into clear explanations and practical steps.
+# C O P L I T
+
+**AI-powered SEO intelligence**
+
+### From website diagnostics to informed action.
+
+[Product overview](https://github.com/aravind9154/COPLIT-Portfolio) · [System architecture](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ARCHITECTURE.md)
+
+</div>
+
+### The problem
+
+A website audit can reveal hundreds of technical SEO issues. For a business owner without specialist knowledge, the difficult part is deciding which issues matter, understanding their impact and knowing how to resolve them.
+
+COPLIT is designed around that gap. It connects website inspection, evidence-based explanations, prioritized recommendations and verification within a single workflow.
 
 ```mermaid
 flowchart LR
- A[Connect] --> B[Inspect]
- B --> C[Prioritize]
- C --> D[Explain]
- D --> E[Guide]
+ A[Website] --> B[Discover and inspect]
+ B --> C[Organize findings]
+ C --> D[Explain and guide]
+ D --> E[User makes changes]
  E --> F[Verify]
+ F --> G[Next priority]
 ```
 
-| Website analysis | AI assistance | Verification |
-| :--- | :--- | :--- |
-| Discover pages, identify problems and organize findings. | Explain problems using website information and guide the user towards a solution. | Check supported problems again after the user makes changes. |
+### A closer look at the experience
 
-[Explore COPLIT →](https://github.com/aravind9154/COPLIT-Portfolio)
+Consider a website with missing page headings. Rather than presenting a list of affected URLs alone, COPLIT's approach is to explain the issue, show the affected pages, guide the user towards a correction and inspect the pages again after the change.
 
-### How the system fits together
+| Before a change | After a change |
+| :--- | :--- |
+| Identify the issue and affected pages. | Inspect the relevant pages again. |
+| Explain the finding and recommended action. | Compare the new evidence with the original finding. |
+| Help the user decide what to address. | Record the outcome and identify the next priority. |
+
+*Illustrative product workflow.*
+
+---
+
+## Behind the product
+
+The work spans the decisions that shape the user experience and the software required to support it.
+
+**Product decisions** — Studying existing SEO tools, defining user problems, organizing findings and designing the path from diagnosis to resolution.
+
+**Software development** — Designing and working with application interfaces, REST APIs, crawling services, relational data and communication between components.
+
+**AI intelligence** — Designing how language models and retrieval can use website-specific evidence to produce relevant explanations.
+
+**Technical problem-solving** — Investigating request timeouts, error propagation, database behavior and verification workflows through debugging and testing.
+
+### System design
 
 ```mermaid
 flowchart TD
- U[Website workspace] <-->|REST API| B[Python / FastAPI]
- B --> C[Website crawler]
- C --> D[SEO analysis]
- D --> P[(PostgreSQL)]
- B --> V[Verification]
- V --> P
- B --> R[Context retrieval]
- P --> R
- R --> L[LLM / Gemini]
- L --> B
+ UI["Website workspace · Next.js / React"] <-->|HTTP / JSON| API["Application services · FastAPI"]
+ API --> C["Website inspection · Crawler / Playwright"]
+ C --> A["SEO analysis · Python"]
+ A --> DB[("Website evidence and history · PostgreSQL")]
+ API --> R["Context retrieval · RAG"]
+ DB --> R
+ R --> L["Language model · Gemini"]
+ L --> API
+ API --> V["Verification services"]
+ V --> DB
 ```
 
-*System design overview.*
+The architecture separates website inspection and rule-based checks from language-model explanations. This allows findings to be tied to collected evidence rather than relying on AI-generated assumptions.
 
-### Explore the work
+## Explore COPLIT
 
-| Area | Inside |
+| Documentation | What you will find |
 | :--- | :--- |
-| [Product research and design](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/PRODUCT-CASE-STUDY.md) | User problems, existing solutions, product decisions and workflows |
-| [Software architecture](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ARCHITECTURE.md) | Frontend, backend, API communication, databases, crawling and security |
-| [AI and information retrieval](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/AI-INTELLIGENCE.md) | LLMs, Gemini, RAG and website-specific explanations |
-| [Technical investigations](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md) | API failures, debugging, timeouts, error handling and verification |
-| [Engineering tests](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md) | Test results, system behavior and limitations |
+| **[Product research & design](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/PRODUCT-CASE-STUDY.md)** | Market problem, user needs, product decisions and experience design |
+| **[Software architecture](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ARCHITECTURE.md)** | Technology choices, API contracts, database relationships, crawling and security |
+| **[AI intelligence](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/AI-INTELLIGENCE.md)** | LLMs, Gemini, RAG, context retrieval and evidence-based responses |
+| **[Engineering case studies](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md)** | Technical investigations, debugging, failure handling and verification |
+| **[Validation & reliability](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md)** | Recorded tests, supported behavior and engineering limitations |
 
-**Technology:** Next.js · React · TypeScript · Tailwind CSS · Python · FastAPI · PostgreSQL · Playwright · REST APIs · LLM · RAG
+---
 
-## Other work
+## Additional work
 
-[AI-powered SEO content research](https://github.com/aravind9154/100hires-growth-marketing-task) — Research into how practitioners use AI for SEO content, supported by structured analysis and automation.
+**[AI-powered SEO content research](https://github.com/aravind9154/100hires-growth-marketing-task)**
 
-[LinkedIn](https://www.linkedin.com/in/aravindmugappagari) · [Repositories](https://github.com/aravind9154?tab=repositories)
+An investigation into how SEO practitioners use AI for content creation, supported by structured research, analysis and Python-based automation.
+
