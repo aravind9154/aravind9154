@@ -25,6 +25,7 @@ flowchart LR
 |---|---|
 | [Product discovery and decisions](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/PRODUCT-CASE-STUDY.md) | User needs, problem definition, product workflow and design choices |
 | [System architecture](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ARCHITECTURE.md) | How the interface, APIs, crawler, database and intelligence services communicate |
+| [AI and retrieval](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/AI-INTELLIGENCE.md) | LLM, RAG, Gemini and website-specific grounding |
 | [Engineering investigations](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md) | Reliability challenges, troubleshooting, corrective actions and verification |
 | [Validation and limitations](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md) | Recorded checks, demonstrated behavior and remaining work |
 
