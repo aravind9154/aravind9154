@@ -2,7 +2,7 @@
 
 **Product Builder · Software Systems & Applied AI**
 
-I design software around user needs and evaluate its behavior through AI-assisted development and testing.
+My work brings together analytical thinking, business understanding and technical execution. I identify underlying problems, evaluate opportunities, define practical strategies and turn complex requirements into structured solutions. My approach emphasizes informed decisions, clear communication and measurable outcomes.
 
 [LinkedIn](https://www.linkedin.com/in/aravindmugappagari) · [GitHub repositories](https://github.com/aravind9154?tab=repositories)
 
