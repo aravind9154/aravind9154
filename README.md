@@ -22,11 +22,15 @@ COPLIT is an AI-powered platform designed to help website owners identify techni
 
 </div>
 
-### The problem
+## Research & Problem Discovery
 
-Search engine optimization (SEO) helps websites become discoverable through search engines. A technical website audit can reveal hundreds of issues. For a business owner without specialist knowledge, the difficult part is deciding which issues matter, understanding their impact and knowing how to resolve them.
+My work in search intelligence began with SearchCraft Lab, where I explored SEO through content research, website optimization and individual SEO tools. Working with indexing, metadata and internal linking led me to investigate a broader problem: how can website owners turn technical findings into practical decisions?
 
-Studying the audit workflows of Semrush, Ahrefs and Screaming Frog led me to focus on what happens after a problem is reported. COPLIT is designed around that gap. Its distinguishing design focus is guided resolution: connecting each finding to website evidence, practical guidance and an independent recheck, rather than treating the audit report as the end of the user's work.
+I studied the audit workflows of [Semrush](https://www.semrush.com/), [Ahrefs](https://ahrefs.com/) and [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/). Their approaches to website diagnostics helped me distinguish between discovering a problem and supporting its resolution.
+
+**My observation:** A technical audit can identify numerous issues, but a website owner must still understand their significance, determine priorities, identify affected pages and evaluate corrections. I chose to focus on that decision-making journey rather than reproduce an entire SEO suite.
+
+COPLIT connects website evidence, explanations, practical guidance and independent verification around that objective.
 
 ```mermaid
 flowchart LR
@@ -38,28 +42,13 @@ flowchart LR
  F --> G[Next priority]
 ```
 
-### A closer look
-
-For a missing page heading, COPLIT's workflow connects affected pages, an explanation, a suggested correction and an independent recheck. [See the product experience](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/PRODUCT-CASE-STUDY.md).
+For example, when a page is missing its main heading, COPLIT connects the finding to the affected page, explains its relevance, guides the user toward a correction and independently reinspects the page after the change. [See the product experience](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/PRODUCT-CASE-STUDY.md).
 
 ---
 
-## Behind the product
+## Product & Engineering Strategy
 
-| Professional capability | How I applied it in COPLIT |
-|---|---|
-| Research & business judgment | Examined existing audit workflows and focused on the difficulty of turning findings into corrections. |
-| Decision-making & prioritization | Chose guided problem resolution over reproducing an entire SEO suite; balanced inspection coverage with resource limits. |
-| Product & system design | Translated user needs into requirements, application workflows, API responsibilities and evidence storage. |
-| Technical problem-solving | Traced request failures across services and database operations; coordinated AI-assisted corrections and evaluated test results. |
-| Quality & risk management | Separated AI explanations from independent verification to avoid treating generated advice as proof. |
-| Communication | Translated technical findings into practical guidance and documented system decisions and engineering outcomes. |
-
-My approach is to understand the problem, compare possible solutions, define priorities, coordinate execution and evaluate the outcome against the original requirement.
-
-**Engineering outcome:** A local audit identified missing main headings (H1) and missing meta descriptions. After corrections, independent rechecks confirmed both findings were fixed and the workflow advanced to the next priority. Offline reliability checks also evaluated request deadlines, database timeouts and rollback behavior. [See what was tested](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md). [Explore the engineering investigation](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md#3-checking-whether-a-fix-worked).
-
-### System design
+I translate research observations into product requirements, define priorities and evaluate alternative approaches before coordinating AI-assisted development. For COPLIT, that meant balancing website inspection coverage with resource limits and separating evidence collection, language intelligence and verification into distinct responsibilities.
 
 ```mermaid
 flowchart TD
@@ -77,19 +66,29 @@ flowchart TD
 
 Logical architecture; see [validation](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md) for tested behavior and integration boundaries.
 
-## Explore COPLIT
+The application services coordinate website inspection and data operations. Stored website evidence supplies context for explanations, while independent verification evaluates corrections without treating AI-generated advice as proof.
 
-| Documentation | What you will find |
-| :--- | :--- |
-| **[Product research & design](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/PRODUCT-CASE-STUDY.md)** | Market problem, user needs, product decisions and experience design |
-| **[Software architecture](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ARCHITECTURE.md)** | Technology choices, API contracts, database relationships, crawling and security |
-| **[AI intelligence](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/AI-INTELLIGENCE.md)** | LLMs, Gemini, RAG, context retrieval and evidence-based responses |
-| **[Engineering case studies](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md)** | Technical investigations, debugging, failure handling and verification |
-| **[Validation & reliability](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md)** | Recorded tests, supported behavior and engineering limitations |
+My contribution includes defining the product experience, establishing system responsibilities, tracing failures across application and database layers, evaluating corrections and documenting technical decisions. These are transferable approaches to investigating unfamiliar problems, translating requirements into practical solutions and assessing outcomes.
+
+## Engineering Validation & Outcomes
+
+A local audit identified missing main headings (H1) and missing meta descriptions. After corrections, independent rechecks confirmed both findings were fixed and the workflow advanced to the next priority. Offline reliability checks also evaluated request deadlines, database timeouts and rollback behavior. [See what was tested](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md). [Engineering case study](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md).
+
+## Technical Documentation
+
+**[Product research & design](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/PRODUCT-CASE-STUDY.md)** — Market problem, user needs and product decisions.
+
+**[Software architecture](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ARCHITECTURE.md)** — Technology choices, APIs, data relationships, crawling and security.
+
+**[AI intelligence](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/AI-INTELLIGENCE.md)** — Language models, context retrieval and evidence-based responses.
+
+**[Engineering case studies](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md)** — Technical investigations, debugging and verification.
+
+**[Validation & reliability](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md)** — Test methods and recorded engineering results.
 
 ---
 
-## Additional work
+## Independent Research
 
 **[AI-powered SEO content research](https://github.com/aravind9154/100hires-growth-marketing-task)**
 
@@ -97,7 +96,5 @@ An investigation into how SEO practitioners use AI for content creation, support
 
 
 ---
-
-## Connect
 
 Open to opportunities where analytical thinking, business understanding and technical capabilities can contribute to meaningful outcomes. [Connect with me on LinkedIn](https://www.linkedin.com/in/aravindmugappagari).
