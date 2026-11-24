@@ -68,16 +68,6 @@ Logical architecture; see [validation](https://github.com/aravind9154/COPLIT-Por
 
 The application services coordinate website inspection and data operations. Stored website evidence supplies context for explanations, while independent verification evaluates corrections without treating AI-generated advice as proof.
 
-My contribution includes defining the product experience, establishing system responsibilities, tracing failures across application and database layers, evaluating corrections and documenting technical decisions. These are transferable approaches to investigating unfamiliar problems, translating requirements into practical solutions and assessing outcomes.
-
-## Engineering Validation & Outcomes
-
-COPLIT's verification workflow was demonstrated through a local website audit. It identified two technical SEO problems—a missing main heading (H1) and a missing meta description. After the corrections were made, COPLIT reinspected the affected pages, confirmed both issues were resolved, recorded the results and advanced to the next finding.
-
-The application was also evaluated for software reliability. The recorded checks confirmed that all six modified Python files passed syntax validation; response handling, request time limits, database connection limits, transaction rollback and API timeout handling passed their respective checks. The conversational understanding component passed 17 checks evaluating how it interprets user questions. These results cover the specific tested behaviors rather than claiming that every part of the application was tested together.
-
-[Engineering case studies](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md) · [Detailed validation results](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md)
-
 ## Technical Documentation
 
 | Documentation | Scope |
@@ -98,5 +88,13 @@ An investigation into how SEO practitioners use AI for content creation, support
 
 
 ---
+
+## Professional Contribution
+
+My contribution to COPLIT extends from problem discovery to technical execution. I studied existing SEO workflows, defined the product direction, translated observations into requirements and evaluated architectural alternatives. During AI-assisted development, I investigated application failures, reviewed proposed corrections and evaluated their behavior against the original requirements.
+
+This work reflects my approach to unfamiliar problems: establish the context, identify the underlying difficulty, evaluate alternatives, prioritize practical solutions and assess the outcome.
+
+**Research references:** [Semrush](https://www.semrush.com/) · [Ahrefs](https://ahrefs.com/) · [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) — platforms studied for their website analysis and diagnostic workflows.
 
 Open to opportunities where analytical thinking, business understanding and technical capabilities can contribute to meaningful outcomes. [Connect with me on LinkedIn](https://www.linkedin.com/in/aravindmugappagari).
