@@ -72,7 +72,15 @@ My contribution includes defining the product experience, establishing system re
 
 ## Engineering Validation & Outcomes
 
-A local audit identified missing main headings (H1) and missing meta descriptions. After corrections, independent rechecks confirmed both findings were fixed and the workflow advanced to the next priority. Offline reliability checks also evaluated request deadlines, database timeouts and rollback behavior. [See what was tested](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md). [Engineering case study](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md).
+COPLIT's engineering work has focused on three practical questions: can the platform confirm a website correction, can its services handle request failures predictably, and can its conversational component interpret users' questions?
+
+**Verifying website corrections.** In recorded local audit #58, two findings—missing main headings (H1) and missing meta descriptions—were reinspected after corrections. Both were recorded as fixed, and the workflow moved to the next finding. This demonstrates the supported resolution journey from identifying an issue to checking the result, rather than relying on a suggested fix alone.
+
+**Handling requests reliably.** I investigated how a request's time limit travels through the API, application services and database operations. The resulting checks covered deadline forwarding, connection waiting, transaction timeouts, rollback behavior, data-saving operations and HTTP 504 error mapping. The recorded simulated and code-level checks passed, demonstrating that these reliability rules were evaluated across the relevant service boundaries—not just at the API entry point.
+
+**Understanding user questions.** The conversational understanding component passed 17 recorded checks for interpreting user questions. This supports the product's approach to natural-language interaction, while website findings and verification remain separate from AI-generated explanations.
+
+[Engineering case studies](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md) document the problems and decisions; [validation results](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md) explain exactly what was checked and the recorded outcomes.
 
 ## Technical Documentation
 
