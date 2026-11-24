@@ -46,13 +46,16 @@ For a missing page heading, COPLIT's workflow connects affected pages, an explan
 
 ## Behind the product
 
-| My contribution | Professional involvement |
+| Professional capability | How I applied it in COPLIT |
 |---|---|
-| Research & strategy | Problem discovery, market research and product direction |
-| Product design | Requirements, user journeys and prioritization |
-| System architecture | Application workflows, APIs, data and component integration |
-| Applied AI | Context retrieval, grounded explanations and verification design |
-| Technical execution | AI-assisted development, debugging and reliability testing |
+| Research & business judgment | Examined existing audit workflows and focused on the difficulty of turning findings into corrections. |
+| Decision-making & prioritization | Chose guided problem resolution over reproducing an entire SEO suite; balanced inspection coverage with resource limits. |
+| Product & system design | Translated user needs into requirements, application workflows, API responsibilities and evidence storage. |
+| Technical problem-solving | Traced request failures across services and database operations; coordinated AI-assisted corrections and evaluated test results. |
+| Quality & risk management | Separated AI explanations from independent verification to avoid treating generated advice as proof. |
+| Communication | Translated technical findings into practical guidance and documented system decisions and engineering outcomes. |
+
+My approach is to understand the problem, compare possible solutions, define priorities, coordinate execution and evaluate the outcome against the original requirement.
 
 **Engineering outcome:** A local audit identified missing main headings (H1) and missing meta descriptions. After corrections, independent rechecks confirmed both findings were fixed and the workflow advanced to the next priority. Offline reliability checks also evaluated request deadlines, database timeouts and rollback behavior. [See what was tested](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md). [Explore the engineering investigation](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md#3-checking-whether-a-fix-worked).
 
