@@ -2,7 +2,7 @@
 
 **Product Builder · Software Systems & Applied AI**
 
-My work starts with understanding a user problem and ends with evaluating whether the software addresses it. Through COPLIT, I define product requirements, design application workflows and system boundaries, coordinate AI-assisted development, and investigate technical failures across APIs, databases and website inspection.
+Turning real-world problems into practical software solutions through research, design and AI-assisted engineering.
 
 [LinkedIn](https://www.linkedin.com/in/aravindmugappagari) · [GitHub repositories](https://github.com/aravind9154?tab=repositories)
 
