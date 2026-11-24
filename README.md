@@ -1,8 +1,8 @@
 # Aravind Mugappagari
 
-**Product Development | Software Systems | Artificial Intelligence**
+**Product Builder · Software Systems & Applied AI**
 
-I develop software products through research, system design and AI-assisted engineering. My work on COPLIT spans technical website analysis, application workflows, API and database design, AI integration, debugging and verification. I focus on connecting product decisions to observable system behavior.
+My work starts with understanding a user problem and ends with evaluating whether the software addresses it. Through COPLIT, I define product requirements, design application workflows and system boundaries, coordinate AI-assisted development, and investigate technical failures across APIs, databases and website inspection.
 
 [LinkedIn](https://www.linkedin.com/in/aravindmugappagari) · [GitHub repositories](https://github.com/aravind9154?tab=repositories)
 
@@ -52,13 +52,13 @@ Consider a website with missing page headings. Rather than presenting a list of 
 
 ## Behind the product
 
-The work spans the decisions that shape the user experience and the software required to support it.
+My contribution connects product decisions to engineering responsibilities.
 
-**Product decisions** — Studying existing SEO tools, defining user problems, organizing findings and designing the path from diagnosis to resolution.
+**Product decisions** — I focused the product on the effort between receiving an audit and resolving its findings, rather than reproducing every feature of an SEO suite.
 
-**Software development** — Designing and working with application interfaces, REST APIs, crawling services, relational data and communication between components.
+**Software development** — I defined the responsibilities of the interface, API, crawler and evidence store so that findings can be traced to affected pages.
 
-**AI intelligence** — Designing how language models and retrieval can use website-specific evidence to produce relevant explanations.
+**AI intelligence** — I separated language-model explanations from rule-based inspection and verification so that generated advice does not become proof of a fix.
 
 **Technical problem-solving** — Tracing request deadlines across API services and database operations, reviewing timeout handling, and checking whether website corrections resolve recorded findings. [Explore the investigations](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md).
 
@@ -103,4 +103,4 @@ An investigation into how SEO practitioners use AI for content creation, support
 
 ## Connect
 
-For conversations about product development, software systems and applied AI, [connect with me on LinkedIn](https://www.linkedin.com/in/aravindmugappagari).
+I am interested in opportunities that combine user understanding, software systems and technical problem-solving. [Connect with me on LinkedIn](https://www.linkedin.com/in/aravindmugappagari).
