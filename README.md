@@ -1,44 +1,58 @@
 # Aravind Mugappagari
 
-**Product Builder | AI Applications | Software Systems & Technical Problem-Solving**
+**Independent Product Developer | Product thinking, software systems and AI-assisted development**
 
-I'm a Computer Science and Engineering student at Saveetha School of Engineering, building **COPLIT**, an AI-powered website intelligence platform.
+I enjoy learning how things work, understanding why problems exist and turning research into practical solutions. I approach unfamiliar challenges by asking questions, comparing alternatives, breaking problems into manageable parts and checking whether the outcome actually meets the requirement.
 
-I enjoy turning a complex problem into a structured product: understanding user needs, designing how systems connect, investigating failures, and validating improvements. My work combines product thinking, technical SEO, AI-assisted implementation, and software integration.
+## Featured work — COPLIT
 
-## Featured project — COPLIT
+**An AI-powered technical SEO intelligence platform in active development.**
 
-**[Explore the COPLIT product and engineering case study](https://github.com/aravind9154/COPLIT-Portfolio)**
+Website owners can receive detailed SEO audit reports and still struggle to understand what matters, what to change and whether a correction worked. COPLIT is designed to bridge that gap through website-specific evidence, prioritized guidance and verification.
 
-Website audit tools can identify many technical issues, but users may struggle to decide what matters, how to fix it, and whether a change worked. COPLIT aims to connect **website discovery → analysis → evidence → prioritization → guidance → verification → history** in a guided experience.
+```mermaid
+flowchart LR
+ A[Connect website] --> B[Inspect and diagnose]
+ B --> C[Prioritize and explain]
+ C --> D[Guide correction]
+ D --> E[Verify and record]
+ E --> F[Next priority]
+```
 
-- **Frontend:** Next.js, React, TypeScript, Tailwind CSS
-- **Backend and APIs:** Python, FastAPI, REST
-- **Data and inspection:** PostgreSQL, custom crawling, Playwright
-- **Intelligence:** Evidence-grounded explanations; Gemini integration in progress
-- **Engineering focus:** Architecture, API reliability, debugging, integration, deterministic verification, and validation
+### Explore the work
 
-**Project status:** Active development. The implementation is private; the linked portfolio documents the architecture, engineering case studies, recorded offline checks, and remaining limitations.
+| Start here | What you will discover |
+|---|---|
+| [Product discovery and decisions](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/PRODUCT-CASE-STUDY.md) | User needs, problem definition, product workflow and design choices |
+| [System architecture](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ARCHITECTURE.md) | How the interface, APIs, crawler, database and intelligence services communicate |
+| [Engineering investigations](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md) | Reliability challenges, troubleshooting, corrective actions and verification |
+| [Validation and limitations](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md) | Recorded checks, demonstrated behavior and remaining work |
 
-## What I work on
+### My contribution
 
-| Area | Focus |
-| --- | --- |
-| Product development | Requirements, user workflows, prioritization, product decisions |
-| Software systems | API integration, service boundaries, databases, debugging |
-| AI applications | Website-grounded reasoning and conversational product experiences |
-| Quality and reliability | Timeout handling, verification, validation, issue investigation |
-| Growth and discovery | Technical SEO, content research, and digital product thinking |
+- Define the problem, requirements and user journey.
+- Evaluate architectural choices and coordinate AI-assisted implementation.
+- Investigate software behavior, API integration and technical failures.
+- Review changes and validate outcomes against expected behavior.
 
-I use AI development tools as part of my workflow and focus on understanding system behavior, evaluating changes, and verifying results.
+### Technology in context
 
-## Selected work
+| Responsibility | Technology |
+|---|---|
+| Interactive website workspace | Next.js, React, TypeScript, Tailwind CSS |
+| API and service orchestration | Python, FastAPI, REST |
+| Website inspection | Custom crawler, Playwright |
+| Persistent website evidence and history | PostgreSQL |
+| Contextual intelligence | LLM integration with Gemini and retrieval-oriented architecture under development |
 
-- **[COPLIT — product and engineering portfolio](https://github.com/aravind9154/COPLIT-Portfolio)** — Architecture, product case study, engineering challenges, and validation.
-- **[AI-powered SEO content research](https://github.com/aravind9154/100hires-growth-marketing-task)** — Structured practitioner research, methodology, content analysis, and supporting automation.
+The source implementation is private. The [public portfolio](https://github.com/aravind9154/COPLIT-Portfolio) documents the work, including its limitations. COPLIT is not presented as a production-ready service.
+
+## Additional work
+
+[AI-powered SEO content research](https://github.com/aravind9154/100hires-growth-marketing-task) — Practitioner research, structured content analysis and supporting automation.
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/aravindmugappagari) · [COPLIT Portfolio](https://github.com/aravind9154/COPLIT-Portfolio)
+[LinkedIn](https://www.linkedin.com/in/aravindmugappagari) · [COPLIT portfolio](https://github.com/aravind9154/COPLIT-Portfolio)
 
-**Interested in early-career opportunities across product, implementation, technical operations, AI applications, and software teams.**
+Open to early-career opportunities where I can contribute to product development, technical investigation and reliable software experiences.
