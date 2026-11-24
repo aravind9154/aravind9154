@@ -26,11 +26,16 @@ COPLIT is an AI-powered platform designed to help website owners identify techni
 
 My work in search intelligence began with SearchCraft Lab, where I explored SEO through content research, website optimization and individual SEO tools. Working with indexing, metadata and internal linking led me to investigate a broader problem: how can website owners turn technical findings into practical decisions?
 
-I studied the audit workflows of [Semrush](https://www.semrush.com/), [Ahrefs](https://ahrefs.com/) and [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/). Their approaches to website diagnostics helped me distinguish between discovering a problem and supporting its resolution.
+My research into [Semrush](https://www.semrush.com/), [Ahrefs](https://ahrefs.com/) and [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) focused on the relationship between technical diagnostics and the decisions users make after receiving an audit.
 
-**My observation:** A technical audit can identify numerous issues, but a website owner must still understand their significance, determine priorities, identify affected pages and evaluate corrections. I chose to focus on that decision-making journey rather than reproduce an entire SEO suite.
+| Research observation | Product decision |
+|---|---|
+| Similar issues can affect many pages. | Group related findings while retaining page-level evidence. |
+| A list of issues does not necessarily establish where a user should begin. | Prioritize problems and explain their relevance. |
+| A recommendation alone cannot establish whether a correction worked. | Connect guidance with independent verification. |
+| Website optimization involves repeated inspections and corrections. | Preserve findings and resolution history. |
 
-COPLIT connects website evidence, explanations, practical guidance and independent verification around that objective.
+Rather than reproduce a general-purpose SEO suite, I chose to concentrate on the journey from identifying a problem to resolving it. The intended users are website owners, freelancers and small agencies who need to make informed decisions from technical information.
 
 ```mermaid
 flowchart LR
@@ -48,7 +53,7 @@ For example, when a page is missing its main heading, COPLIT connects the findin
 
 ## Product & Engineering Strategy
 
-I translate research observations into product requirements, define priorities and evaluate alternative approaches before coordinating AI-assisted development. For COPLIT, that meant balancing website inspection coverage with resource limits and separating evidence collection, language intelligence and verification into distinct responsibilities.
+The architecture follows a central product requirement: explanations must be connected to observable website information, and a suggested correction must not be mistaken for a verified result. This shapes how inspection, data storage, application services and AI are separated.
 
 ```mermaid
 flowchart TD
@@ -64,9 +69,14 @@ flowchart TD
  V --> DB
 ```
 
-Logical architecture; see [validation](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md) for tested behavior and integration boundaries.
+**Architecture rationale**
 
-The application services coordinate website inspection and data operations. Stored website evidence supplies context for explanations, while independent verification evaluates corrections without treating AI-generated advice as proof.
+- **Next.js, React and FastAPI:** Separate the interactive workspace from Python-based inspection and analysis through defined API contracts.
+- **Custom crawler and Playwright:** Combine HTTP inspection with browser-rendered content where JavaScript affects what a page contains, while controlling inspection costs.
+- **PostgreSQL:** Preserve relationships between websites, audits, affected pages, findings, evidence and verification history.
+- **LLM and retrieval architecture:** Use relevant website context to inform explanations, rather than depend on model knowledge alone. Keep verification independent of generated text.
+
+These choices balance inspection depth, traceability, resource consumption and the need for a clear user experience. [Architecture and design trade-offs](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ARCHITECTURE.md).
 
 ## Technical Documentation
 
@@ -82,19 +92,25 @@ The application services coordinate website inspection and data operations. Stor
 
 ## Independent Research
 
-**[AI-powered SEO content research](https://github.com/aravind9154/100hires-growth-marketing-task)**
+**[AI-powered SEO content production](https://github.com/aravind9154/100hires-growth-marketing-task)**
 
-An investigation into how SEO practitioners use AI for content creation, supported by structured research, analysis and Python-based automation.
+A structured research assignment examining how experienced SEO practitioners approach AI-assisted content creation, semantic SEO, search quality and content automation.
 
+I selected 10 practitioners, reviewed material published between April and June 2026, organized LinkedIn and YouTube research by author, and synthesized common themes. The repository includes a Python transcript-collection utility alongside the research methodology and source records.
+
+**Research methodology:** [Selection and collection process](https://github.com/aravind9154/100hires-growth-marketing-task/blob/main/research/methodology.md) · [Source references](https://github.com/aravind9154/100hires-growth-marketing-task/blob/main/research/sources.md) · [Common themes](https://github.com/aravind9154/100hires-growth-marketing-task/blob/main/research/other/ai-seo-common-themes.md)
 
 ---
 
 ## Professional Contribution
 
-My contribution to COPLIT extends from problem discovery to technical execution. I studied existing SEO workflows, defined the product direction, translated observations into requirements and evaluated architectural alternatives. During AI-assisted development, I investigated application failures, reviewed proposed corrections and evaluated their behavior against the original requirements.
+As the independent product developer behind COPLIT, I take responsibility for the decisions connecting the original problem to the software solution.
 
-This work reflects my approach to unfamiliar problems: establish the context, identify the underlying difficulty, evaluate alternatives, prioritize practical solutions and assess the outcome.
+- **Product ownership:** Define the problem, intended users, requirements, priorities and boundaries of the solution.
+- **Analytical judgment:** Compare approaches, identify trade-offs and translate research into specific product decisions.
+- **Technical execution:** Coordinate AI-assisted development, review application behavior, trace failures across service boundaries and evaluate proposed corrections.
+- **Quality and communication:** Define expected behavior, assess results against requirements and document technical decisions so they can be understood and reviewed.
 
-**Research references:** [Semrush](https://www.semrush.com/) · [Ahrefs](https://ahrefs.com/) · [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) — platforms studied for their website analysis and diagnostic workflows.
+My contribution is not limited to producing code or documenting a product. It includes deciding what should be built, why it matters, how its components should work together and how to evaluate whether the solution meets its intended purpose.
 
-Open to opportunities where analytical thinking, business understanding and technical capabilities can contribute to meaningful outcomes. [Connect with me on LinkedIn](https://www.linkedin.com/in/aravindmugappagari).
+[LinkedIn](https://www.linkedin.com/in/aravindmugappagari) · [GitHub repositories](https://github.com/aravind9154?tab=repositories)
