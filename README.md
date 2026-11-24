@@ -54,7 +54,7 @@ For a missing page heading, COPLIT's workflow connects affected pages, an explan
 | Applied AI | Context retrieval, grounded explanations and verification design |
 | Technical execution | AI-assisted development, debugging and reliability testing |
 
-**Engineering outcome:** A recorded local audit verified two corrected website findings and progressed to the next priority, demonstrating the supported resolution workflow. [Explore the engineering investigation](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md#3-checking-whether-a-fix-worked).
+**Engineering outcome:** A local audit identified missing main headings (H1) and missing meta descriptions. After corrections, independent rechecks confirmed both findings were fixed and the workflow advanced to the next priority. Offline reliability checks also evaluated request deadlines, database timeouts and rollback behavior. [See what was tested](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md). [Explore the engineering investigation](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md#3-checking-whether-a-fix-worked).
 
 ### System design
 
