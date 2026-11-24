@@ -2,7 +2,7 @@
 
 **Product Development | Software Systems | Artificial Intelligence**
 
-I work across product research, system design and AI-assisted software development. My approach is to study how people use existing products, identify problems that remain unresolved, and translate those findings into software requirements, technical decisions and testable solutions.
+I develop software products through research, system design and AI-assisted engineering. My work on COPLIT spans technical website analysis, application workflows, API and database design, AI integration, debugging and verification. I focus on connecting product decisions to observable system behavior.
 
 [LinkedIn](https://www.linkedin.com/in/aravindmugappagari) · [GitHub repositories](https://github.com/aravind9154?tab=repositories)
 
@@ -22,9 +22,9 @@ I work across product research, system design and AI-assisted software developme
 
 ### The problem
 
-A website audit can reveal hundreds of technical SEO issues. For a business owner without specialist knowledge, the difficult part is deciding which issues matter, understanding their impact and knowing how to resolve them.
+Search engine optimization (SEO) helps websites become discoverable through search engines. A technical website audit can reveal hundreds of issues. For a business owner without specialist knowledge, the difficult part is deciding which issues matter, understanding their impact and knowing how to resolve them.
 
-COPLIT is designed around that gap. It connects website inspection, evidence-based explanations, prioritized recommendations and verification within a single workflow.
+Studying the audit workflows of Semrush, Ahrefs and Screaming Frog led me to focus on what happens after a problem is reported. COPLIT is designed around that gap. It connects website inspection, evidence-based explanations, prioritized recommendations and verification within a single workflow.
 
 ```mermaid
 flowchart LR
@@ -60,7 +60,7 @@ The work spans the decisions that shape the user experience and the software req
 
 **AI intelligence** — Designing how language models and retrieval can use website-specific evidence to produce relevant explanations.
 
-**Technical problem-solving** — Investigating request timeouts, error propagation, database behavior and verification workflows through debugging and testing.
+**Technical problem-solving** — Tracing request deadlines across API services and database operations, reviewing timeout handling, and checking whether website corrections resolve recorded findings. [Explore the investigations](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md).
 
 ### System design
 
@@ -98,3 +98,9 @@ The architecture separates website inspection and rule-based checks from languag
 
 An investigation into how SEO practitioners use AI for content creation, supported by structured research, analysis and Python-based automation.
 
+
+---
+
+## Connect
+
+For conversations about product development, software systems and applied AI, [connect with me on LinkedIn](https://www.linkedin.com/in/aravindmugappagari).
