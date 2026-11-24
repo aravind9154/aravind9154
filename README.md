@@ -72,15 +72,11 @@ My contribution includes defining the product experience, establishing system re
 
 ## Engineering Validation & Outcomes
 
-COPLIT's engineering work has focused on three practical questions: can the platform confirm a website correction, can its services handle request failures predictably, and can its conversational component interpret users' questions?
+COPLIT's verification workflow was demonstrated through a local website audit. It identified two technical SEO problems—a missing main heading (H1) and a missing meta description. After the corrections were made, COPLIT reinspected the affected pages, confirmed both issues were resolved, recorded the results and advanced to the next finding.
 
-**Verifying website corrections.** In recorded local audit #58, two findings—missing main headings (H1) and missing meta descriptions—were reinspected after corrections. Both were recorded as fixed, and the workflow moved to the next finding. This demonstrates the supported resolution journey from identifying an issue to checking the result, rather than relying on a suggested fix alone.
+The application was also evaluated for software reliability. The recorded checks confirmed that all six modified Python files passed syntax validation; response handling, request time limits, database connection limits, transaction rollback and API timeout handling passed their respective checks. The conversational understanding component passed 17 checks evaluating how it interprets user questions. These results cover the specific tested behaviors rather than claiming that every part of the application was tested together.
 
-**Handling requests reliably.** I investigated how a request's time limit travels through the API, application services and database operations. The resulting checks covered deadline forwarding, connection waiting, transaction timeouts, rollback behavior, data-saving operations and HTTP 504 error mapping. The recorded simulated and code-level checks passed, demonstrating that these reliability rules were evaluated across the relevant service boundaries—not just at the API entry point.
-
-**Understanding user questions.** The conversational understanding component passed 17 recorded checks for interpreting user questions. This supports the product's approach to natural-language interaction, while website findings and verification remain separate from AI-generated explanations.
-
-[Engineering case studies](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md) document the problems and decisions; [validation results](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md) explain exactly what was checked and the recorded outcomes.
+[Engineering case studies](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md) · [Detailed validation results](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md)
 
 ## Technical Documentation
 
