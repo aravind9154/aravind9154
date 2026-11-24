@@ -2,7 +2,7 @@
 
 **Product Builder · Software Systems & Applied AI**
 
-Turning real-world problems into practical software solutions through research, design and AI-assisted engineering.
+I design software around user needs and evaluate its behavior through AI-assisted development and testing.
 
 [LinkedIn](https://www.linkedin.com/in/aravindmugappagari) · [GitHub repositories](https://github.com/aravind9154?tab=repositories)
 
@@ -36,31 +36,20 @@ flowchart LR
  F --> G[Next priority]
 ```
 
-### A closer look at the experience
+### A closer look
 
-Consider a website with missing page headings. Rather than presenting a list of affected URLs alone, COPLIT's approach is to explain the issue, show the affected pages, guide the user towards a correction and inspect the pages again after the change.
-
-| Before a change | After a change |
-| :--- | :--- |
-| Identify the issue and affected pages. | Inspect the relevant pages again. |
-| Explain the finding and recommended action. | Compare the new evidence with the original finding. |
-| Help the user decide what to address. | Record the outcome and identify the next priority. |
-
-*Illustrative product workflow.*
+For a missing page heading, COPLIT's workflow connects affected pages, an explanation, a suggested correction and an independent recheck. [See the product experience](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/PRODUCT-CASE-STUDY.md).
 
 ---
 
 ## Behind the product
 
-My contribution connects product decisions to engineering responsibilities.
-
-**Product decisions** — I focused the product on the effort between receiving an audit and resolving its findings, rather than reproducing every feature of an SEO suite.
-
-**Software development** — I defined the responsibilities of the interface, API, crawler and evidence store so that findings can be traced to affected pages.
-
-**AI intelligence** — I separated language-model explanations from rule-based inspection and verification so that generated advice does not become proof of a fix.
-
-**Technical problem-solving** — Tracing request deadlines across API services and database operations, reviewing timeout handling, and checking whether website corrections resolve recorded findings. [Explore the investigations](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/ENGINEERING-CASE-STUDIES.md).
+| My contribution | Focus |
+|---|---|
+| Product design | Research, requirements and guided resolution |
+| System design | API, crawler and evidence storage responsibilities |
+| Applied AI | Website-specific context and independent verification |
+| Engineering | Request deadlines, database behavior and testing |
 
 ### System design
 
@@ -78,7 +67,7 @@ flowchart TD
  V --> DB
 ```
 
-The architecture separates website inspection and rule-based checks from language-model explanations. This allows findings to be tied to collected evidence rather than relying on AI-generated assumptions.
+Logical architecture; see [validation](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/VALIDATION-AND-LIMITATIONS.md) for tested behavior and integration boundaries.
 
 ## Explore COPLIT
 
