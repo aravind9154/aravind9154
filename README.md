@@ -24,7 +24,7 @@ COPLIT is an AI-powered SEO intelligence platform designed around the work that 
 
 ## Research & Problem Discovery
 
-My work in search intelligence began with SearchCraft Lab, where I explored SEO through content research, website optimization and individual SEO tools. Working with indexing, metadata and internal linking led me to investigate a broader problem: how can website owners turn technical findings into practical decisions?
+My research into search engine optimization (SEO) began with content research, website optimization and technical checks such as indexing, metadata and internal linking. A website audit identifies issues that may affect how search engines access or understand pages. I became interested in what happens next: how can website owners turn those findings into practical decisions?
 
 I examined the audit workflows of [Semrush](https://www.semrush.com/), [Ahrefs](https://ahrefs.com/) and [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/), focusing on issue discovery, severity, recommendations and reinspection. These are established capabilities; my product question was how to connect them into a guided experience for users without specialist SEO knowledge.
 
@@ -69,7 +69,7 @@ flowchart TD
  V --> DB
 ```
 
-**System design decisions**
+The diagram presents the logical system design. **System design decisions**
 
 - **Next.js, React and FastAPI:** Separate the interactive workspace from Python-based inspection and analysis through typed API contracts, so interface changes and backend operations have clear responsibilities.
 - **Custom crawler and Playwright:** Combine HTTP inspection with browser-rendered content where JavaScript affects what a page contains, while controlling inspection costs.
