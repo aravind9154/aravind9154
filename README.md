@@ -2,7 +2,11 @@
 
 **Product Builder · Software Systems & Applied AI**
 
-I work at the intersection of product research, software systems and applied AI. My work includes COPLIT, an SEO intelligence platform shaped by research into website audit workflows, and an independent study of AI-assisted content production across 10 SEO practitioners. I focus on translating research into product requirements, making reasoned technical decisions and evaluating software behavior against those requirements.
+I build and investigate software products across product research, software systems and applied AI. My COPLIT work connects requirements, architecture, AI-assisted implementation and validation. In a recorded local audit, missing H1 and meta description corrections were independently verified and the workflow advanced to the next finding.
+
+**Review my work for your role:** [Associate Product Manager](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/roles/associate-product-manager.md) · [Technical Product Analyst](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/roles/technical-product-analyst.md) · [Product Support](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/roles/product-support.md) · [Product Operations](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/roles/product-operations.md) · [Software Engineering](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/roles/junior-software-engineer.md) · [Applied AI design](https://github.com/aravind9154/COPLIT-Portfolio/blob/main/roles/applied-ai.md)
+
+My experience comes from personal product and research projects. I completed my B.Tech in Computer Science and Engineering in April 2026 and am available to join immediately.
 
 [LinkedIn](https://www.linkedin.com/in/aravindmugappagari) · [GitHub repositories](https://github.com/aravind9154?tab=repositories)
 
